@@ -1,0 +1,14 @@
+# 1. Ignore EVERYTHING in the folder first
+*
+
+# 2. But DO NOT ignore these specific files (The "!" means "Allow")
+!LangGraph-Booking-Agent.ipynb
+!requirements.txt
+!README.md
+!.gitignore
+
+# 3. Specifically block these even if they match other rules (SAFETY)
+token.json
+credentials.json
+.env
+.venv/
